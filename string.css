@@ -1,0 +1,772 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#row{
+    overflow: auto;
+} Only for the upper navbar flow scroll */
+#block {
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 0px;
+    margin-top: -1px;
+    background-color: rgb(43, 40, 40);
+    width: 1930px;
+    height: 38px;
+    position: fixed;
+}
+
+.s18 {
+    font-size: 10px;
+}
+
+.all {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.all:hover {
+    background-color: rgb(56, 53, 53);
+}
+
+.all:active {
+    background-color: rgb(15, 184, 15);
+}
+
+.one {
+    background-color: rgb(31, 165, 31);
+}
+
+.one:hover {
+    background-color: rgb(18, 184, 18);
+}
+
+#vertnav {
+    width: 20%;
+    background-color: rgb(229, 233, 243);
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#php {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.same {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.same a {
+    text-decoration: none;
+    color: black;
+}
+
+.same:hover {
+    background-color: rgb(100, 99, 99);
+}
+
+.same:active {
+    background-color: rgb(31, 165, 31);
+}
+
+.same:active a {
+    color: white;
+}
+
+.two {
+    background-color: rgb(48, 155, 48);
+}
+
+.two:hover {
+    background-color: rgb(48, 155, 48);
+}
+
+.two a {
+    color: white;
+}
+
+#h1 {
+    color: aqua;
+    float: right;
+    margin-right: 300px;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    float: right;
+}
+
+#han {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+#btn1 {
+    border: 1px solid white;
+    width: 95%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.btn2 {
+    background-color: rgb(5, 152, 98);
+    border: 1px solid rgb(33, 165, 44);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(5, 152, 98);
+    border: 1px solid rgb(5, 152, 98);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(5, 152, 98);
+}
+
+.btn3:hover {
+    background-color: rgb(5, 152, 98);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#hr1 {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#p1 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+#hr2 {
+    margin-top: 20px;
+}
+
+#h2 {
+    font-weight: 400;
+    color: black;
+    font-size: 40px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#p2 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin-top: -5px;
+}
+
+#d1 {
+    background-color: rgb(231, 233, 235);
+    width: 990px;
+    float: right;
+    margin-right: -10px;
+    border-radius: 10px;
+    height: 240px;
+}
+
+#d1part1 {
+    width: 950px;
+    margin-left: 20px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 25px;
+    margin-top: 0px;
+    border-left: 5px solid green;
+}
+
+#h3 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.btn5 {
+    background-color: rgb(32, 30, 30);
+    border: 1px solid rgb(34, 33, 33);
+    height: 40px;
+    width: 250px;
+    font-size: 17px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.btn5 a {
+    text-decoration: none;
+    color: white;
+}
+
+#p3 {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+#s1 {
+    color: rgb(0, 119, 178);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#s2 {
+    color: rgb(102, 153, 0);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#btn7 {
+    background-color: rgb(5, 152, 98);
+    border: 1px solid rgb(5, 152, 98);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    font-family: "Source Sans Pro", sans-serif;
+    cursor: pointer;
+    margin-left: px;
+    margin-top: 23px;
+}
+
+#btn7 a {
+    text-decoration: none;
+    color: white;
+}
+
+#btn5 a {
+    text-decoration: none;
+    color: white;
+}
+
+#btn5:hover {
+    background-color: rgb(44, 46, 44);
+}
+
+#d2 {
+    background-color: rgb(255, 255, 204);
+    width: 1100px;
+    height: 120px;
+    float: right;
+    margin-right: -50px;
+    margin-top: 20px;
+}
+
+#p4 {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+#p5 {
+    margin-left: 100px;
+    margin-top: -15px;
+    font-family: Verdana, sans-serif;
+}
+
+#hr3 {
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+#h4 {
+    font-size: 32px;
+    font-weight: 400;
+    float: right;
+    margin-right: 580px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p6 {
+    font-size: 16px;
+    float: right;
+    font-family: Verdana, sans-serif;
+    margin-right: 155px;
+    margin-top: -5px;
+}
+
+#p7 {
+    font-size: 16px;
+    float: right;
+    font-family: Verdana, sans-serif;
+    margin-right: 465px;
+    margin-top: -1px;
+}
+
+#p8 {
+    float: right;
+    margin-right: 406px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1px;
+}
+
+#d3 {
+    background-color: rgb(231, 233, 235);
+    width: 990px;
+    height: 240px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#d3part1 {
+    width: 950px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-left: 5px solid green;
+}
+
+#h5 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#d3p1 {
+    float: right;
+    margin-right: 820px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    color: gray;
+}
+
+#d3s1 {
+    color: rgb(221, 80, 157);
+}
+
+#d3s2 {
+    color: rgb(154, 110, 58);
+}
+
+#d3s3 {
+    color: rgb(102, 153, 0);
+}
+
+#d3s4 {
+    color: rgb(0, 119, 170);
+}
+
+#d3s5 {
+    color: rgb(102, 153, 0);
+}
+
+#d3s6 {
+    color: rgb(221, 80, 157);
+}
+
+#p9 {
+    float: right;
+    margin-top: 100px;
+    margin-right: 255px;
+    line-height: 1.4;
+}
+
+#d4 {
+    background-color: rgb(231, 233, 235);
+    width: 990px;
+    height: 280px;
+    float: right;
+    margin-right: -2px;
+    border-radius: 10px;
+}
+
+#d4part1 {
+    width: 950px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-left: 5px solid green;
+}
+
+#h6 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#d4p1 {
+    float: right;
+    margin-right: 820px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    color: gray;
+}
+
+#d4s1 {
+    color: rgb(221, 80, 157);
+}
+
+#d4s2 {
+    color: rgb(154, 110, 58);
+}
+
+#d4s3 {
+    color: rgb(102, 153, 0);
+}
+
+#d4s4 {
+    color: rgb(0, 119, 170);
+}
+
+#d4s5 {
+    color: rgb(102, 153, 0);
+}
+
+#d4p2 {
+    margin-left: 20px;
+}
+
+#hr4 {
+    width: 100%;
+    float: right;
+    margin-top: 99px;
+}
+
+#h7 {
+    font-weight: 400;
+    font-size: 32px;
+    float: right;
+    margin-top: -1px;
+    margin-right: 780px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#p10 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    float: right;
+    margin-right: 510px;
+    margin-top: -10px;
+}
+
+#s3 {
+    color: rgb(225, 20, 60);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    background-color: lightgray;
+}
+
+#d6 {
+    background-color: rgb(231, 233, 235);
+    width: 990px;
+    border-radius: 10px;
+    height: 250px;
+    float: right;
+    margin-top: 500px;
+    margin-right: 10px;
+}
+
+#p11 {
+    float: right;
+}
+
+#d6h2 {
+    font-weight: 400;
+    margin-left: 25px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#d6p1 {
+    color: black;
+    font-family: Verdana, sans-serif;
+    float: right;
+    margin-right: 595px;
+    margin-top: -5px;
+}
+
+#d6part1 {
+    background-color: white;
+    width: 950px;
+    height: 70px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 20px;
+    border-left: 5px solid green;
+}
+
+#d6p2 {
+    color: gray;
+    float: right;
+    margin-right: 720px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+#d6s1 {
+    color: rgb(0, 119, 170);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#d6s2 {
+    color: rgb(221, 74, 104);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#d6s3 {
+    color: rgb(102, 153, 0);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#btn8 {
+    background-color: rgb(5, 152, 98);
+    border: 1px solid rgb(5, 152, 98);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    font-family: "Source Sans Pro", sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#btn8 a {
+    text-decoration: none;
+    color: white;
+}
+
+#hr7 {
+    margin-top: 1825px;
+    margin-right: -200px;
+}
+
+#d7 {
+    background-color: rgb(231, 233, 235);
+    width: 990px;
+    border-radius: 10px;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#h8 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 25px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#p11 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin-right: 375px;
+    margin-top: -10px;
+}
+
+#s4 {
+    color: rgb(225, 20, 60);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    background-color: lightgray;
+}
+
+#d7h2 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#d7p1 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#d7part1 {
+    background-color: white;
+    width: 950px;
+    height: 70px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 20px;
+    border-left: 5px solid green;
+}
+
+#d7p1 {
+    margin-top: 20px;
+    color: gray;
+}
+
+#d7s1 {
+    color: rgb(0, 119, 170);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#d7s2 {
+    color: rgb(221, 74, 104);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#d7s3 {
+    color: rgb(102, 153, 0);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+#hr6 {
+    width: 100%;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#h9 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 25px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#p12 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+#s5 {
+    color: rgb(225, 20, 60);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    background-color: lightgray;
+}
+
+#p13 {
+    margin-left: 32px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+#d8 {
+    background-color: rgb(231, 233, 235);
+    width: 990px;
+    border-radius: 10px;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#d8h2 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#d8p1 {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#d8part1 {
+    background-color: white;
+    width: 950px;
+    height: 70px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 20px;
+    border-left: 5px solid green;
+}
+#d8p2{
+    float: right;
+    font-size: 15px;
+    color: gray;
+    margin-right: 655px;
+    margin-top: 25px;
+}
+#d8s1{
+    color: rgb(0, 119, 170);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;   
+}
+#d8s2{
+    color: rgb(221, 74, 104);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;   
+}
+#d8s3{
+    color: rgb(102, 153, 0);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;   
+}
+#d8s4{
+    color: rgb(102, 153, 0);
+    font-family: Consolas, "Source Code Pro", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
